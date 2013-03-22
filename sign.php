@@ -35,7 +35,7 @@ function sign()
 
     //have to get PartitionKey and RowKey
     $PartitionKey = "" ;
-    $RowKey = "1363462020" ;
+    //$RowKey = "1363462020" ;
 
  
     $tableConnection = ServicesBuilder::getInstance()->createTableService($connectionString);

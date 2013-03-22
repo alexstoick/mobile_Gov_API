@@ -19,7 +19,7 @@ class Petition
         $this->id = (int)$json->id;
         $this->votes = (int)$json->nrvoturi;
         $this->category = $json->categorie1;
-        $this->RowKey = $json->RowKey ;   
+        $this->RowKey = $json->RowKey ;
         //$this->author;
         //"2013-03-13T00:00:00Z"
         $d = date_parse ( $json->{'data'} ) ;
